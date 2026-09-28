@@ -282,7 +282,7 @@
 
     /* ===== 6. Galerie ===== */
     .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-    .gallery .photo { aspect-ratio: 1; cursor: zoom-in; }
+    .gallery .photo { aspect-ratio: 4 / 3; cursor: zoom-in; }
     .gallery button { all: unset; display: block; width: 100%; cursor: zoom-in; border-radius: var(--radius); }
     .gallery button:focus-visible { outline: 3px solid var(--mustard); outline-offset: 3px; }
     .gallery .photo:hover img { transform: scale(1.05); }
@@ -451,7 +451,7 @@
             <figcaption>La salle</figcaption>
           </figure>
           <figure class="photo">
-            <img src="assets/photos/comptoir.jpg" alt="Le comptoir et le bar intérieur aux murs bleu marine" loading="lazy" decoding="async" width="800" height="600" onerror="this.parentNode.classList.add('is-missing')">
+            <img src="assets/photos/comptoir.jpg" alt="Le comptoir et le bar aux murs bleu marine" loading="lazy" decoding="async" width="1200" height="687" onerror="this.parentNode.classList.add('is-missing')">
             <figcaption>Le comptoir</figcaption>
           </figure>
         </div>
@@ -607,10 +607,10 @@
 
         <ul class="gallery" role="list" style="list-style:none;margin:0;padding:0">
           <li><button type="button"><figure class="photo">
-            <img src="assets/photos/plat-cari.jpg" alt="Cari servi avec riz, brèdes et rougail" loading="lazy" decoding="async" width="900" height="1200" onerror="this.parentNode.classList.add('is-missing')">
+            <img src="assets/photos/plat-cari.jpg" alt="Cari servi avec riz, brèdes et rougail" loading="lazy" decoding="async" width="1200" height="900" onerror="this.parentNode.classList.add('is-missing')">
             <figcaption>Cari créole, riz, brèdes &amp; rougail</figcaption></figure></button></li>
           <li><button type="button"><figure class="photo">
-            <img src="assets/photos/plat-tartare-ananas.jpg" alt="Tartare servi dans un demi-ananas avec salade" loading="lazy" decoding="async" width="900" height="1200" onerror="this.parentNode.classList.add('is-missing')">
+            <img src="assets/photos/plat-tartare-ananas.jpg" alt="Tartare servi dans un demi-ananas avec salade" loading="lazy" decoding="async" width="1200" height="900" onerror="this.parentNode.classList.add('is-missing')">
             <figcaption>Tartare en ananas</figcaption></figure></button></li>
           <li><button type="button"><figure class="photo">
             <img src="assets/photos/plat-salade-creole.jpg" alt="Salade créole aux fruits de mer" loading="lazy" decoding="async" width="900" height="1200" onerror="this.parentNode.classList.add('is-missing')">
@@ -628,10 +628,10 @@
             <img src="assets/photos/salle.jpg" alt="Tables dressées dans la salle aux murs bleu marine" loading="lazy" decoding="async" width="900" height="1200" onerror="this.parentNode.classList.add('is-missing')">
             <figcaption>La salle</figcaption></figure></button></li>
           <li><button type="button"><figure class="photo">
-            <img src="assets/photos/comptoir.jpg" alt="Comptoir et bar intérieur" loading="lazy" decoding="async" width="800" height="600" onerror="this.parentNode.classList.add('is-missing')">
+            <img src="assets/photos/comptoir.jpg" alt="Comptoir et bar intérieur" loading="lazy" decoding="async" width="1200" height="687" onerror="this.parentNode.classList.add('is-missing')">
             <figcaption>Le comptoir</figcaption></figure></button></li>
           <li><button type="button"><figure class="photo">
-            <img src="assets/photos/vitrine.jpg" alt="La vitrine au logo La Bulle Lunchbar" loading="lazy" decoding="async" width="1100" height="1100" onerror="this.parentNode.classList.add('is-missing')">
+            <img src="assets/photos/vitrine.jpg" alt="La vitrine au logo La Bulle Lunchbar" loading="lazy" decoding="async" width="1102" height="1106" onerror="this.parentNode.classList.add('is-missing')">
             <figcaption>La vitrine</figcaption></figure></button></li>
         </ul>
       </div>

@@ -18,12 +18,7 @@ assets/photos/        photos compressées (max 1200 px, JPEG ~80 %)
 | `facade.jpg` | ✅ | Fond du Hero, Présentation, Galerie |
 | `salle.jpg` | ✅ | Présentation, Galerie |
 | `ardoise-suggestions-1.jpg`, `ardoise-suggestions-2.jpg` | ✅ | Suggestions du jour |
-| `comptoir.jpg` | ⏳ à ajouter | Présentation, Galerie |
-| `vitrine.jpg` | ⏳ à ajouter | Galerie |
+| `comptoir.jpg` | ✅ | Présentation, Galerie |
+| `vitrine.jpg` | ✅ | Galerie |
 
-Tant qu'une photo manque, un encart rayé bleu marine « Photo à venir » s'affiche à sa place.
-Conseil : redimensionner à 1200 px max sur le grand côté, qualité JPEG 75-80 %.
-
-## À compléter
-
-- Les photos `comptoir.jpg` et `vitrine.jpg` (voir tableau).
+`plat-cari.jpg` et `plat-tartare-ananas.jpg` ont été pivotées en paysage. Si une photo manque, un encart « Photo à venir » s'affiche à sa place.
