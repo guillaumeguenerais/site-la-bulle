@@ -14,18 +14,16 @@ assets/photos/        photos compressées (max 1200 px, JPEG ~80 %)
 
 | Fichier | Statut | Utilisé dans |
 |---|---|---|
-| `plat-cari.jpg` | ✅ | Galerie, image de partage Facebook |
-| `plat-tartare-ananas.jpg` | ✅ | Galerie |
-| `plat-salade-creole.jpg` | ✅ | Galerie |
-| `plat-brochettes-poulet.jpg` | ✅ | Galerie |
-| `desserts-cafe-gourmand.jpg` | ✅ | Galerie |
-| `facade.jpg` | ⏳ à ajouter | Fond du Hero, Présentation, Galerie |
-| `terrasse.jpg` | ⏳ à ajouter | Présentation, Galerie |
+| `plat-cari.jpg`, `plat-tartare-ananas.jpg`, `plat-salade-creole.jpg`, `plat-brochettes-poulet.jpg`, `desserts-cafe-gourmand.jpg` | ✅ | Galerie |
+| `facade.jpg` | ✅ | Fond du Hero, Présentation, Galerie |
+| `salle.jpg` | ✅ | Présentation, Galerie |
+| `ardoise-suggestions-1.jpg`, `ardoise-suggestions-2.jpg` | ✅ | Suggestions du jour |
 | `comptoir.jpg` | ⏳ à ajouter | Présentation, Galerie |
+| `vitrine.jpg` | ⏳ à ajouter | Galerie |
 
 Tant qu'une photo manque, un encart rayé bleu marine « Photo à venir » s'affiche à sa place.
 Conseil : redimensionner à 1200 px max sur le grand côté, qualité JPEG 75-80 %.
 
-## À compléter (recherche `À COMPLÉTER` dans `index.html`)
+## À compléter
 
-- **Prix et compositions de la carte fixe** (Salades, Galettes, Pâtes, Crêpes) — à retranscrire depuis la photo du menu papier. Un prix laissé vide est masqué automatiquement.
+- Les photos `comptoir.jpg` et `vitrine.jpg` (voir tableau).
