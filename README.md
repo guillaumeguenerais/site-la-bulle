@@ -29,5 +29,3 @@ Conseil : redimensionner à 1200 px max sur le grand côté, qualité JPEG 75-80
 ## À compléter (recherche `À COMPLÉTER` dans `index.html`)
 
 - **Prix et compositions de la carte fixe** (Salades, Galettes, Pâtes, Crêpes) — à retranscrire depuis la photo du menu papier. Un prix laissé vide est masqué automatiquement.
-- **URL de la page Facebook** (3 liens + pied de page).
-- **« Site réalisé par … »** dans le pied de page.
